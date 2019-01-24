@@ -1,0 +1,30 @@
+{
+    "packageDirectories": [
+        {
+            "path": "package-01",
+            "package": "jpower-case-package-01",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true
+        },
+        {
+            "path": "package-02",
+            "package": "jpower-case-package-02",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "jpower-case-package-01"
+                }
+            ]
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "44.0",
+    "packageAliases": {
+        "jpower-case-package-01": "0Ho0c000000Kyk9CAC",
+        "jpower-case-package-02": "0Ho0c000000KykECAS"
+    }
+}
